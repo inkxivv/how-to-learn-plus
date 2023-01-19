@@ -1,0 +1,9 @@
+@import url(./_span-accent/two-columns__paragraph_span-accent.css);
+
+.two-columns__paragraph {
+  margin: 0 0 30px 0;
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
