@@ -4,3 +4,7 @@
 
   margin: 0;
 }
+
+.header__link:hover {
+  opacity: 0.6;
+}

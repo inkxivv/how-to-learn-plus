@@ -11,3 +11,7 @@
 
     margin: 0;
 }
+
+.feynman__link:hover {
+    opacity: 0.6;
+  }
