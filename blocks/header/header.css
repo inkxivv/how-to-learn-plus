@@ -1,0 +1,81 @@
+@import url(../logo/logo.css);
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f2f2f2;
+
+  z-index: 0;
+}
+
+.header__title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 102px;
+  line-height: 94%;
+
+  margin-left: 64px;
+
+  width: 730px;
+
+  z-index: 2;
+}
+
+.header__subtitle {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 139%;
+
+  width: 388px;
+
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+
+  margin: 0;
+
+  z-index: 2;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+
+  margin: 0;
+}
+
+.header__link:hover {
+  opacity: 0.6;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  z-index: 1;
+}
+
+.header__square-pic {
+  background-color: #2f80ed;
+  width: 568px;
+  height: 568px;
+
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: 0;
+
+  margin: 0;
+}
