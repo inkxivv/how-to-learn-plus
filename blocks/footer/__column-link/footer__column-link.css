@@ -1,6 +1,13 @@
 .footer__column-link {
-    padding: 0;
     text-decoration: none;
-    padding: 0;
     color: white;
+
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+
+    border: 1px solid red;
+    display: block;
+
+    padding: 0;
 }

@@ -4,5 +4,9 @@
     background-color: #1d1d1d;
     color: white;
 
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid red;
 }
