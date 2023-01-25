@@ -3,12 +3,10 @@
   min-height: 600px;
   max-height: 756px;
 
-  position: relative;
-
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-color: #f2f2f2;
+  overflow: hidden;
 
+  position: relative;
   z-index: 0;
 }
